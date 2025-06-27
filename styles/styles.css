@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --backgroound-color: #d9d9d9;
+  --main-color: #ffffff;
+}
+
+body {
+  background-color: var(--backgroound-color);
+}
+
+.mainContainer {
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  margin-top: 87px;
+  gap: 30px;
+}
+
+.headerText {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 76px;
+}
+
+.firstContainer {
+  max-width: 367px;
+  min-height: 429px;
+  background-color: var(--main-color);
+}
+
+.starImgContainer {
+  padding: 44px 171px 24px 33px;
+}
+.mainContainer p {
+  font-size: 18px;
+  padding: 0px 33px;
+  line-height: 27px;
+}
+.infoContainer {
+  margin-top: 40px;
+  display: flex;
+  margin-left: 30px;
+}
+
+.spanContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 14px;
+}
+.infoContainer .username {
+  font-size: 24px;
+  line-height: 30px;
+}
+.infoContainer span {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1%;
+}
+
+.secondContainer {
+  max-width: 367px;
+  min-height: 375px;
+  background-color: var(--main-color);
+}
+
+.thirdBox {
+  max-width: 367px;
+  min-height: 401px;
+  background-color: var(--main-color);
+}
